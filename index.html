@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Montserrat:wght@200&family=Nunito:wght@300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <section class="start">
+        <br>
+    <h1 class="text">Collage Web App</h1>
+    <br>
+    <h4 class="subtitle">As soon as the popup appears, please click Allow. After you've spoken a command</h4>
+    <h3 class="subtitle">Say "Selfie" to take photo</h3>
+    <br>
+    <br>
+    <a href="#final"><button onclick="start()" class="button">START</button></a>
+    <br>
+    <br>
+    <textarea readonly="true" id="textbox" class="text-area"></textarea>
+    <br>
+    <br>
+    <h4 class="subtitle">Press the START button</h4>
+</section>
+<br>
+<br>
+<center>
+<h4 class="text">FINAL RESULT</h4>
+<section id="final">
+    <div id="resultShow">
+
+        <div id="camera">
+        </div>
+
+<div id="result1">
+    <a download="1.png" id="link1" href=""></a>
+    <img src="1.jpg" class="logo_img" id="1">
+</div>
+
+<div id="result2">
+    <a download="2.png" id="link2" href=""></a>
+    <img src="2.jpg" class="logo_img" id="2">
+</div>
+
+<div id="result3">
+    <a download="3.png" id="link3" href=""></a>
+    <img src="3.jpg" download="3.png" class="logo_img" id="3">
+</div>
+</center>
+    </div>
+</section>
+</body>
+
+</html>
